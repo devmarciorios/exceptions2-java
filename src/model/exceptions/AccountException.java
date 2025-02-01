@@ -1,9 +1,12 @@
 package model.exceptions;
 
-public class BusinessException extends RuntimeException{
+import java.io.Serial;
+
+public class AccountException extends RuntimeException{
+    @Serial
     private static final long serialVersionUID = 1L;
 
-    public BusinessException(String msg) {
+    public AccountException(String msg) {
         super(msg);
     }
 }
