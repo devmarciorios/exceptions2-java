@@ -1,4 +1,4 @@
-package aplication;
+package application;
 
 import model.entities.Account;
 import model.exceptions.AccountException;
@@ -16,7 +16,8 @@ public class Program {
         System.out.print("Number: ");
         int number = sc.nextInt();
         System.out.print("Holder: ");
-        String holder = sc.next();
+        sc.nextLine();
+        String holder = sc.nextLine();
         System.out.print("Initial Balance: ");
         double balance = sc.nextDouble();
         System.out.print("Withdraw Limit: ");
